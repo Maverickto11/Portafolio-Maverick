@@ -1,0 +1,13 @@
+<div class="skills-section">
+    <h2 class="section-title">Habilidades</h2>
+    <div class="skills-container">
+      <div *ngFor="let skillCategory of skills" class="skill-category">
+        <div class="experience-tag">{{ skillCategory.experience }}</div>
+        <div class="title" style="color: #3b5672;">{{ skillCategory.title }}</div>
+        <div class="icons">
+          <img *ngFor="let icon of skillCategory.icons" [src]="icon.src" [alt]="icon.alt" />
+        </div>
+      </div>
+    </div>
+  </div>
+  

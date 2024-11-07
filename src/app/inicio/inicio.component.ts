@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './inicio.component.css'
 })
 export class InicioComponent {
-  fullText: string = "Hola Soy Maverick Cordova Bustos";
+  fullText: string = "Hola, Soy Maverick Cordova Bustos";
   displayedText: string = "";
   typingSpeed: number = 100; // Tiempo en milisegundos para cada letra
   deletingSpeed: number = 50; // Tiempo en milisegundos para cada letra al borrar

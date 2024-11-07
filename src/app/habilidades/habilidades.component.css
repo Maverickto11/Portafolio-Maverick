@@ -1,0 +1,93 @@
+/* Sección de habilidades */
+.skills-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+
+/* Centrar el contenedor */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto; /* Centrando el contenedor */
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border: #b8b8b8 1px solid;
+    border-radius: 10px;
+  }
+
+  /* Estilo de cada categoría de habilidades */
+  .skill-category {
+    width: 250px;
+    padding: 20px;
+    background: linear-gradient(145deg, #ffffff, #e3e8ed); /* Color más claro */
+    border-radius: 15px;
+    text-align: center;
+
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15), -3px -3px 8px rgba(255, 255, 255, 0.7);
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transición para hover */
+  }
+  
+  .skill-category:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Estilo de la etiqueta de experiencia */
+  .experience-tag {
+    background-color: #af01ff;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo del título */
+  .title {
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: 600;
+    
+  }
+  
+  /* Estilo de los iconos */
+  .icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .icons img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 8px; /* Añade un ligero borde redondeado */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .icons img:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+  }
+  
+  
