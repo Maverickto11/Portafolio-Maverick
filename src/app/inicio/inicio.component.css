@@ -146,6 +146,7 @@ body {
   .text-animate {
     font-size:25px;
     white-space: pre-wrap;
+    text-align: center;
   }
   .parrafo{
     width: 50%;
