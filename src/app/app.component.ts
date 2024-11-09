@@ -4,11 +4,12 @@ import { InicioComponent } from "./inicio/inicio.component";
 import { AcercaDeMiComponent } from "./acerca-de-mi/acerca-de-mi.component";
 import { HabilidadesComponent } from "./habilidades/habilidades.component";
 import { ProyectosComponent } from "./proyectos/proyectos.component";
+import { CertificadosComponent } from "./certificados/certificados.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, InicioComponent, AcercaDeMiComponent, HabilidadesComponent, ProyectosComponent],
+  imports: [InicioComponent, AcercaDeMiComponent, HabilidadesComponent, ProyectosComponent, CertificadosComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

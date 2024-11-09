@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { CertificadosComponent } from "../certificados/certificados.component";
 
 @Component({
   selector: 'app-proyectos',
