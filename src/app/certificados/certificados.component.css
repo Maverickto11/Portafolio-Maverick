@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
   
 .certificate-section {
@@ -25,7 +24,7 @@
     z-index: 1;
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 160px;
     text-align: center;
   }
   
