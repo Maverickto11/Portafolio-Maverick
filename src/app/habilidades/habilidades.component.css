@@ -2,6 +2,7 @@
 .skills-section {
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 80px;
   }
   
   .section-title {
@@ -12,7 +13,6 @@
     text-transform: uppercase;
   }
   
-
 /* Centrar el contenedor */
 .skills-container {
     display: flex;
@@ -21,7 +21,7 @@
     gap: 25px;
     max-width: 1000px;
     margin: 0 auto; /* Centrando el contenedor */
-    padding: 60px;
+    padding: 20px;
     padding-top: 60px;
     padding-bottom: 60px;
     border: #b8b8b8 1px solid;

@@ -11,14 +11,15 @@ body {
 
 .titulo {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 h2 {
-  color: #333;
   font-size: 2rem;
-  font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .row {
