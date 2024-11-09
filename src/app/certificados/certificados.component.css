@@ -15,7 +15,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 50%; /* Altura del degradado, ajusta según necesites */
+  height: 23%; /* Altura del degradado, ajusta según necesites */
   background: linear-gradient(to top, rgba(0, 79, 170, 0), rgb(255, 255, 255)); /* Degradado desde transparente a negro */
 }
 
