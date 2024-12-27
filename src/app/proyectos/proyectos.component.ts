@@ -20,11 +20,12 @@ export class ProyectosComponent {
       ],
     },
     {
-      title: 'Parrilla Eléctrica',
-      link: 'https://parrilla-electrica.web.app/',
-      image: '/assets/img/parrila-electrica.png',
+      title: 'Análisis de Delitos por Provincia',
+      link: 'https://consulta-de-incidencias-por-provincia-y-4xjr.onrender.com/',
+      image: '/assets/img/Analisis.png',
       techIcons: [
-        { src: 'https://angular.io/assets/images/logos/angular/angular.svg', alt: 'Angular Icon' },
+        { src: '/assets/iconos/python.png', alt: 'Angular Icon' },
+        { src: '/assets/iconos/Pandas.png', alt: 'Angular Icon' },
       ],
     },
     {
