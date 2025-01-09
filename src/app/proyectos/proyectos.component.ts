@@ -56,7 +56,7 @@ export class ProyectosComponent {
     },
     {
       title: 'Visas Flash: Obtén tu visa',
-      link: 'https://visasflash4.godaddysites.com/',
+      link: 'https://visasflash.com/',
       image: '/assets/img/visasflash.png',
       techIcons: [
         { src: '/assets/iconos/wordpress.png', alt: 'WordPress Icon' },
